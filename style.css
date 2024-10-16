@@ -1,0 +1,45 @@
+.box {
+    width: 35%;
+    height: 70vh;
+    margin-left: 32.5%;
+    margin-top: 15vh;
+    box-shadow: 0 0 15px;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.yes-btn {
+    width: 20%;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 20px;
+    background-color: blue;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.yes-btn:hover {
+    box-shadow: 0 0 15px blue;
+    transform: translateY(-5px);
+    transition: 0.5s;
+}
+
+.no-btn {
+    width: 20%;
+    height: 25px;
+    margin-left: 90px;
+    margin-top: 20px;
+    background-color: blue;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
